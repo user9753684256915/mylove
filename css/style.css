@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "cutie";
+    src: url(../font/cutie-patootie-font/CutiePatootie-Rgjv.ttf);
+}
+
+@font-face {
+    font-family: "adorable";
+    src: url(../font/super-adorable-font/SuperAdorable-MAvyp.ttf);
+}
+
+body {
+    background: linear-gradient(#ff008c, #FFFFFF);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    text-align: center;
+    font-size: 2.5lvh;
+    font-weight: 600;
+    justify-content: space-between;
+    font-family: "cutie";
+    display: flex;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+    margin-top: 5lvh;
+    text-align: center;
+    font-size: 2.5lvh;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 2lvh;
+    font-family: "cutie";
+}
+
+nav {
+    font-family: "adorable";
+    display: flex;
+    gap: 43lvh;
+    color: white;
+}
+
+.navtitle {
+    font-size: 4lvh;
+}
+
+.navbuttons {
+    font-size: 3lvh;
+    display: flex;
+    gap: 5lvh;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
