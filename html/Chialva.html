@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Sayaka</title>
+        <style>
+            .profile {
+                /*background: linear-gradient(to right, red, yellow, green, blue, green, yellow, red);*/
+                background: linear-gradient(rgb(71, 17, 102), rgb(221, 4, 210));
+                background-size: 1000% auto;
+                animation: gradientAnimation 3s linear infinite;
+                position: relative;
+            }   
+
+            @keyframes gradientAnimation {
+                0% {
+                    background-position: 110% 50%;
+                }
+
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+            .sparkles {
+                background: url(../image/sparkles.png);
+                animation: sparkles 3s linear infinite;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+
+            @keyframes sparkles {
+                0% {
+                    opacity: 20%;
+                }
+
+                50% {
+                    opacity: 100%;
+                }
+
+                100% {
+                    opacity: 20%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="navtitle">
+                <a href="../index.html">
+                    <img src="../image/title.png" alt="Magical Girlfriends" width="300lvh">
+                </a>
+            </div>
+            <div class="navbuttons">
+                <a href="../html/Sayaka.html">Sayaka</a>
+                <span>|</span>
+                <a href="../html/Madoka.html">Madoka</a>
+                <span>|</span>
+                <a href="../html/MyLove.html">My Love</a>
+                <span>|</span>
+                <a href="../html/Me.html">Me</a>
+                <span>|</span>
+                <a href="../html/us.html">us</a>
+                <span>|</span>
+                <a href="Chialva.html">Our Power</a>
+            </div>
+            <div class="heart">
+                <img src="https://tr.rbxcdn.com/180DAY-b8726e55ba49f73d7a048581bcd6e670/420/420/ShoulderAccessory/Webp/noFilter" alt="myLove" width="70rem">
+            </div>
+        </nav>
+        <hr>
+        <main>
+            <div class="profile">
+                <div class="sparkles"></div>
+                <div class="profile_img">
+                    <img src="../image/Chialva.png" alt="Chialva" width="200lvh">
+                </div>
+                <div class="profile_name">
+                    Chialva 👑
+                </div>
+                <hr>
+                <div class="profile_info">
+                    <p>Class : Angel</p>
+                    <p>This combination of 2 angels<br> made this insanely strong<br>card. It deals 1000 damages<br>and recovers 200 hp.<br><br>It is the strongest and rarest<br>card known to this world.</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

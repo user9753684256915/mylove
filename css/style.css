@@ -17,11 +17,11 @@ body {
 
 main {
     text-align: center;
-    font-size: 2.5lvh;
+    font-size: 1.6rem;
     font-weight: 600;
-    justify-content: space-between;
     font-family: "cutie";
     display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -44,8 +44,9 @@ footer {
 nav {
     font-family: "adorable";
     display: flex;
-    gap: 43lvh;
+    justify-content: space-between;
     color: white;
+    flex-wrap: wrap;
 }
 
 .navtitle {
@@ -55,8 +56,9 @@ nav {
 .navbuttons {
     font-size: 3lvh;
     display: flex;
-    gap: 5lvh;
+    gap: 1rem;
     align-items: center;
+    text-wrap-mode: nowrap;
 }
 
 a {
@@ -66,4 +68,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.profile_info {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .navbuttons {
+        flex-wrap: wrap;
+        gap: 0.7rem;
+    }
 }
